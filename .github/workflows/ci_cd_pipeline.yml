@@ -28,9 +28,6 @@ jobs:
 
     - name: Train Model
       run: |
-        p
-- name: Train Model
-      run: |
         python model/train.py
 
     - name: Evaluate Model
